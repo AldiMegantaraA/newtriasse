@@ -1,15 +1,37 @@
 .collection-preview {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     margin-bottom: 30px;
-    margin-bottom: 200px;
+    margin-bottom: 300px;
     cursor: none;
+
+    @media (max-width: 960px) {
+      grid-template-columns: 1fr;
+      margin-bottom: -150px;
+    }
 
     .artikel {
       padding: 20px 40px;
       border-radius: 10px;
       margin-top: 16px;
+      width: 57%;
       box-shadow: 1px 1px 7px grey;
+      position: relative;
+      left: 2%;
+
+      img {
+        width: 100%;
+      }
+
+      @media (max-width: 960px) {
+        img {
+          width: 100%;
+        }
+        width: 90%;
+        align-items: center;
+        position: relative;
+        left: 4%;
+      }
     }
   
     .title {
@@ -24,16 +46,25 @@
     
     .menu-item {
       height: 600px;
-      width: 400px;
+      width: 35%;
       display: grid;
       left: 60%;
-      top: 20%;
+      top: 27%;
       position: absolute;
-      
-
       grid-template-columns: 1fr;
 
+      @media (max-width: 960px) {
+        left: 3%;
+        position: relative;
+        width: 90%;
+      }
+
       .content {
+        .tombol {
+          @media (max-width: 960px) {
+            margin-top: -140px;
+          }
+        }
         .detail {
           display: grid;
           grid-template-columns: 1fr 1fr;
@@ -44,10 +75,19 @@
               margin-top: 16px;
               width: 44%;
               height: auto;
+
+              @media (max-width: 960px) {
+                width: 64%;
+              }
             }
           }
           .details {
             margin-left: -90px;
+
+            @media (max-width: 960px) {
+              margin-left: -40px;
+              margin-top: -10px;
+            }
 
             a {
               color: rgb(0, 132, 255);
@@ -75,11 +115,26 @@
       .harga {
         margin-top: 220px;
         text-align: center;
+        @media (max-width: 960px) {
+          margin-top: 40px;
+          text-align: left;
+          position: relative;
+          left: -20%;
+        }
 
         p {
-          text-align: center;
+          text-align: left;
           margin-left: 90px;
           width: 30%;
+
+          @media (max-width: 960px) {
+            text-align: center;
+            width: 100%;
+            position: relative;
+            top: -10%;
+            left: 50%;
+            height: 5%;
+          }
         }
 
         hr {
@@ -87,16 +142,28 @@
           position: absolute;
           top: 65%;
           left: 60%;
+
+          @media (max-width:960px) {
+            top: 4%;
+            left: 50%;
+          }
         }
 
         h3 {
           position: absolute;
           top: 61%;
           left: 60%;
+          @media (max-width: 960px) {
+            left: 50%;
+            top: 0;
+          }
         }
 
         h1 {
           color: rgb(0, 74, 143);
+          @media (max-width: 960px) {
+            margin-top: 50px;
+          }
         }
 
         button {
@@ -105,6 +172,12 @@
           border-radius: 10px;
           border: none;
           color: #fff;
+
+          @media (max-width: 960px) {
+            position: absolute;
+            top: 20%;
+            left: 50%;
+          }
         }
       }
     }

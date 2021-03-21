@@ -37,12 +37,17 @@ export const SidebarWrapper = styled.div`
     color: #fff;
 `
 
+export const LogoSide = styled.div`
+    text-align:center;
+`
+
 export const SidebarMenu = styled.ul`
     display: grid;
     grid-tamplate-columns: 1fr;
     grid-tamplate-rows: repeat(3, 80px);
     text-align: center;
     margin-bottom: 20px;
+    margin-top: -80px;
 
     @media screen and (max-width: 480px) [
         grid-tamplate-rows: repeat(3, 60px);

@@ -11,12 +11,12 @@ $main-color: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 12px 28px;
-  width: 100%;
+  width: 90%;
 
   @media (max-width: 960px) {
       grid-template-columns: 1fr 1fr;
       padding: 0 0;
-      width: 120%;
+      width: 80%;
   }
 
   input[type='text'] {

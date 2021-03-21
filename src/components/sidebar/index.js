@@ -1,5 +1,6 @@
 import React from 'react';
-import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SideBtnWrap, SidebarLink, SidebarRoute, SidebarMenu } from './SideBarElements';
+import Logo from '../../assets/img-brand-logo@2x.png';
+import { SidebarContainer, Icon, LogoSide, CloseIcon, SidebarWrapper, SideBtnWrap, SidebarLink, SidebarRoute, SidebarMenu } from './SideBarElements';
 
 const Sidebar = ({isOpen, toggle}) => {
     return (
@@ -7,6 +8,9 @@ const Sidebar = ({isOpen, toggle}) => {
             <Icon onClick={toggle}>
                 <CloseIcon />
             </Icon>
+            <LogoSide className="logo-container" to="/">
+                <img className="logo" src={Logo} alt=""/>
+            </LogoSide>
             <SidebarWrapper>
                 <SidebarMenu>
                     <SidebarLink to="about" onClick={toggle}>

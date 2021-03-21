@@ -27,6 +27,12 @@ const Footer = () => (
                 Syarat & ketentuan
             </Link>
         </div>
+        <div className='gridB'>
+            <h3>Social Media</h3>
+            <Link className='option' to='/'>
+                Syarat & ketentuan
+            </Link>
+        </div>
     </div>
 )
 

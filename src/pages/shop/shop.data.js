@@ -8,7 +8,7 @@ const SHOP_DATA = [
       title: 'Parahita Buncit',
       alamat: 'Jl. Warung Buncit Raya 150 Jakarta Selatan',
       id: 1,
-      linkUrl: 'shop/hats',
+      linkUrl: '/shop',
       promo: 'Hemat 20%',
       hargaAwal: 'Rp 370.500',
       hargaAkhir: 'Rp 250.578',

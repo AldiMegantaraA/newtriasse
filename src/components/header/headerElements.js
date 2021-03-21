@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const MobileIcon = styled.div`
     display: none;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 960px) {
         display: block;
         position: absolute;
         top: 10%;

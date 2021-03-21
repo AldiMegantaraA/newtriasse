@@ -1,7 +1,7 @@
 .menu-item {
     height: 240px;
     display: flex;
-    width: 60%;
+    width: 50%;
     align-items: left;
     justify-content: left;
     position: relative;
@@ -14,10 +14,10 @@
     box-shadow: 3px 3px 10px grey;
 
     @media (max-width: 960px) {
-      width: 100%;
+      width: 90%;
+      left: 3%;
       margin: 40px 4.5px 10px;
       top: 90%;
-      left: 0;
       display: grid;
       grid-template-columns: 1fr;
       height: 500px;

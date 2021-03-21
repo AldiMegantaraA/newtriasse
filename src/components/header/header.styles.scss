@@ -1,6 +1,6 @@
 .header {
     height: 120px;
-    width: 115%;
+    width: 100%;
     padding: 20px 12px;
     display: flex;
     margin-top: -20px;
@@ -11,7 +11,7 @@
 
     @media screen and (max-width: 960px) {
       transition: 0.8s all ease;
-      width: 147%;
+      width: 100%;
     }
 
     .logo-container {
