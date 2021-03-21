@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/newtriasse/static/css/main.a4a56661.chunk.css",
+    "main.js": "/newtriasse/static/js/main.6906597e.chunk.js",
+    "main.js.map": "/newtriasse/static/js/main.6906597e.chunk.js.map",
+    "runtime-main.js": "/newtriasse/static/js/runtime-main.0a4a4718.js",
+    "runtime-main.js.map": "/newtriasse/static/js/runtime-main.0a4a4718.js.map",
+    "static/js/2.641d759c.chunk.js": "/newtriasse/static/js/2.641d759c.chunk.js",
+    "static/js/2.641d759c.chunk.js.map": "/newtriasse/static/js/2.641d759c.chunk.js.map",
+    "index.html": "/newtriasse/index.html",
+    "static/css/main.a4a56661.chunk.css.map": "/newtriasse/static/css/main.a4a56661.chunk.css.map",
+    "static/js/2.641d759c.chunk.js.LICENSE.txt": "/newtriasse/static/js/2.641d759c.chunk.js.LICENSE.txt",
+    "static/media/diabetes.6dc25b7c.jpg": "/newtriasse/static/media/diabetes.6dc25b7c.jpg",
+    "static/media/hospital.182adf67.png": "/newtriasse/static/media/hospital.182adf67.png",
+    "static/media/img-doctor.6e6bc8cb.svg": "/newtriasse/static/media/img-doctor.6e6bc8cb.svg",
+    "static/media/img-icon-pin-blue.4955701f.svg": "/newtriasse/static/media/img-icon-pin-blue.4955701f.svg",
+    "static/media/search-form.styles.scss": "/newtriasse/static/media/img-icon-stetoscop.0885e919.svg",
+    "static/media/img-start-on.d7d31c2e.svg": "/newtriasse/static/media/img-start-on.d7d31c2e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0a4a4718.js",
+    "static/js/2.641d759c.chunk.js",
+    "static/css/main.a4a56661.chunk.css",
+    "static/js/main.6906597e.chunk.js"
+  ]
+}
